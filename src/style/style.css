@@ -1,0 +1,72 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+.text-box #greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box p:last-of-type {
+  color: green;
+}
+
+.text-box .yellow {
+  color: yellow;
+}
+/* Кольори для кожного дня */
+.monday li {
+  color: blue;
+}
+
+.tuesday li {
+  color: green;
+}
+
+.wednesday li {
+  color: purple;
+}
+
+.thursday li {
+  color: orange;
+}
+
+.friday li {
+  color: red;
+}
+
+.schedule li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.schedule li:focus {
+  outline: 2px solid black;
+}
+
+.schedule li:active {
+  color: darkred;
+}
+
+.schedule li:first-child {
+  background-color: lightgray;
+}
+
+.schedule li:last-child {
+  background-color: lightyellow;
+}
+
+.schedule li:nth-child(2) {
+  background-color: lightpink;
+}
+
+.schedule ul:nth-of-type(odd) li {
+  border: 1px dashed gray;
+}
+
+.schedule ul:nth-of-type(even) li {
+  border: 1px solid black;
+}
