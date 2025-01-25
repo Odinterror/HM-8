@@ -10,32 +10,35 @@
   color: red;
 }
 
-.text-box p:last-of-type {
-  color: green;
+.text-box .red {
+  color: rgb(238, 8, 8);
+}
+.text-box .green {
+  color: rgb(0, 255, 42);
 }
 
 .text-box .yellow {
-  color: yellow;
+  color: rgb(255, 255, 0);
 }
 /* Кольори для кожного дня */
 .monday li {
-  color: blue;
+  color: rgb(236, 34, 34);
 }
 
 .tuesday li {
-  color: green;
+  color: rgb(255, 40, 173);
 }
 
 .wednesday li {
-  color: purple;
+  color: rgb(251, 255, 0);
 }
 
 .thursday li {
-  color: orange;
+  color: rgb(0, 225, 255);
 }
 
 .friday li {
-  color: red;
+  color: rgb(255, 145, 0);
 }
 
 .schedule li:hover {
@@ -48,23 +51,23 @@
 }
 
 .schedule li:active {
-  color: darkred;
+  color: rgb(255, 0, 0);
 }
 
 .schedule li:first-child {
-  background-color: lightgray;
+  background-color: rgb(86, 14, 100);
 }
 
 .schedule li:last-child {
-  background-color: lightyellow;
+  background-color: rgb(92, 116, 8);
 }
 
 .schedule li:nth-child(2) {
-  background-color: lightpink;
+  background-color: rgb(26, 116, 15);
 }
 
 .schedule ul:nth-of-type(odd) li {
-  border: 1px dashed gray;
+  border: 1px dashed rgb(128, 128, 128);
 }
 
 .schedule ul:nth-of-type(even) li {
